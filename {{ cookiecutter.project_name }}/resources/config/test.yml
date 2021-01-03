@@ -1,0 +1,4 @@
+repository:
+  adapter: memory
+
+log: panic
