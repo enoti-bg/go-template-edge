@@ -29,7 +29,7 @@ $ cookiecutter <path-to-cloned-repo>
 During creation the template exposed 4 parameters:
 * `project_name` (default: hello-world) - This is the name of the project and accidentally the created binary output
 * `gomodule_uri` (default: hello-world) - This is the path to the respective module - e.g. "github.com/enoti-bg/from-go-template"
-* `goproxy_uri` (default: "")- If goproxy is being used, please indicate the full uri with protocol + port - e.g. "<protocol>://<domain-and-path>:<port>"
+* `goproxy_uri` (default: "")- If goproxy is being used, please indicate the full uri with protocol + port - e.g. `<protocol>://<domain-and-path>:<port>`
 * `service_port` (default: 8889)- Port on which the service will be exposed by default. (adjustable by environment variable)
 
 
